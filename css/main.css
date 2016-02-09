@@ -1,0 +1,279 @@
+
+/************************
+GENERAL
+************************/
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+a {
+  text-decoration:none;
+    color: #aa242b;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+
+}
+
+#logo-image{
+
+  width: 80px;
+  text-align: center;
+
+}
+
+/************
+
+PAGE PORTFOLIO
+
+************/
+
+img {
+  max-width: 100%;
+}
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 95%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+
+  border-right-style: solid;
+  border-right-color: #ccc;
+  border-right-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ccc;
+  border-bottom-width: 1px;
+
+
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+
+}
+
+#gallery-2 li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+
+}
+
+#gallery-2 li {
+  float: left;
+  width: 95%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+
+  border-right-style: solid;
+  border-right-color: #ccc;
+  border-right-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ccc;
+  border-bottom-width: 1px;
+
+
+}
+
+#gallery-2 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+/****************
+PAGE: ABOUT
+****************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+h3.about-header{
+
+  display: block;
+}
+
+/****************
+PAGE: Contact
+****************/
+
+.contact-info{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+
+  background-image: url('../img/phone.png');
+
+}
+
+.contact-info li.mail a {
+
+  background-image: url('../img/mail.png');
+
+}
+
+.contact-info li.twitter a {
+
+  background-image: url('../img/twitter.png');
+
+}
+
+
+/************************
+HEADING
+************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+
+}
+
+h1 {
+  font-family: 'Open Sans', serif;
+  margin: 8px 0 10px 5%;
+  font-size: 1.75em;
+  font-weight: 100;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 0.75em;
+  /* margin: -5px 0 0; */
+  line-height: 0.75em;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.75em;
+  margin: 0 0 0 2.5%;
+  line-height: 2.00em;
+  font-weight: normal;
+  color: #ccc;
+}
+
+/*********
+NAVIGATION
+*******/
+
+nav {
+  text-align: center;
+  padding: 9px 0;
+  margin: 10px 0 0;
+
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1px 10px;
+
+}
+
+nav ul li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+nav a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: thin;
+  padding: 10px 10px ;
+  margin: 10px 0px;
+  text-decoration: none;
+}
+
+/*********
+FOOTER
+*******/
+
+footer{
+  font-size: 0.74em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+header {
+  background: #e74c3c;
+  border-color: #c0392b;
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+nav {
+  background: #c0392b;
+
+}
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+nav a.selected, nav a:hover {
+  text-decoration: none;
+  background-color: #e74c3c;
+
+}
+
+body {
+  background-color: #fff;
+  color: #999;
+}
